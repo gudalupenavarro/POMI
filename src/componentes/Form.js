@@ -1,9 +1,17 @@
 import React from "react";
 
-const Form = () => {
+const Form = ({input, setInput, tareas, setTareas}) => {
+ 
+ const onInputChange =(event) => {
+    setInput(event.target.value);
+ };
+    const onFormSubmit = (event) =>{
+        event.preventDefault();
+    }
+
     return (
-        <form>
-            <input type='text' placeholder="Enter a To do..." className="task-input"/>
+        <form onSubmit={onFormSubmit}>
+            <input type='text' placeholder="Agregue una tarea..." className="task-input" value={input} required onChange={onInputChange}/>
             <button className="button-add" type="submit">
                 Add
             </button>
