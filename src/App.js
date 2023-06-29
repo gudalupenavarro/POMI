@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Header from './componentes/Header';
+import Form from "./componentes/Form";
 import './App.css';
 
 
@@ -10,6 +11,7 @@ const App = () => {
         <div>
           <Header />
         </div>
+          <Form/>
       </div>
     </div>
 
