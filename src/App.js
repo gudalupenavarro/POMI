@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import logo from './logo.svg';
 import Header from './componentes/Header';
-import Form from "./componentes/Form";
+import Form from './componentes/Form';
 
 
 import './App.css';
