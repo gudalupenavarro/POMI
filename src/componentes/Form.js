@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
     return (
         <form>
-            <input type='text' placeholder="Enter a To do" className="task-input"/>
+            <input type='text' placeholder="Enter a To do..." className="task-input"/>
             <button className="button-add" type="submit">
                 Add
             </button>
