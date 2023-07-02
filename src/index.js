@@ -51,7 +51,6 @@ function setInfoCircularProgressBar(){
 
               if(timerValue === 0){
                 stopTimer();
-                audio.play();
               }
 
              circularProgressBarNumber.textContent  =  `${formatoNumberInStringMinute(timerValue)  }`;
