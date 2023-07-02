@@ -4,7 +4,6 @@
  const buttonTypePomodoro = document.querySelector("#buttonTypePomodoro");
  const  buttonTypeShortBreak = document.querySelector("#buttonTypeShortBreak");
 
- const audio = new Audio('alarma.mp3');
 
  const pomodoroTimerInSeconds = 1500; // 60 segundos * 25 minutos 
  const shortBreakTimerInSeconds = 100; // 60 segundos * 5 minutos 
@@ -45,7 +44,7 @@ const resetTimer = () => {
                                  : shortBreakTimerInSeconds;
           multiplierFactor = 360 / timerValue;
           setInfoCircularProgressBar();
-         // audio.stop();
+         
 }
 
 function setInfoCircularProgressBar(){
