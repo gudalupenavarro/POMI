@@ -71,12 +71,18 @@ h1 {
   cursor: pointer;
 }
 
-.fa-trash {
+.trash {
   margin-left: 0.75rem;
+  color: #8758ff;
 }
 
 .completed {
   color: #c5aeff;
   text-decoration: line-through;
+}
+
+.pen{
+  margin-left: 0.75rem;
+  color: #8758ff;
 }
  
