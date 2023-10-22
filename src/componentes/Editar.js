@@ -1,11 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
+import TareasForm from './TareasForm'
 
-const Editar = () => {
+
+
+export const Editar = ({editTodo, task}) => {
+    const [value, setValue] = useState(task.task)
+
+    const handleSubmit = e => {
+        e.preventDefault();
+
+        editTodo(value, task.id);
+
+        setValue("")
+    }
+
+    
   return (
-    <div>
-      
-    </div>
+    <form className='TareasForm' onSubmit={handleSubmit}>
+        <input className='todo-input' type='text' placeholder='Editar Tarea'
+         value={value} onChange={(e) => setValue(e.target.value)}/>
+        <button type='submit' className='tarea-btn'>Editar Tarea</button>
+    </form>
   )
 }
 
-export default Editar
+export default TareasForm
