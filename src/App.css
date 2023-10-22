@@ -24,7 +24,7 @@ h1 {
   font-size: 1.75rem;
 }
 
-.tareasWrapper {
+.TodosWrapper {
   background: #1A1A40;
   margin-top: 4rem;
   padding: 4rem;
@@ -35,7 +35,7 @@ h1 {
   width: 100%;
 }
 
-.tareasInput {
+.todo-input {
   outline: none;
   background: none;
   border: 1px solid #8758ff;
@@ -59,7 +59,7 @@ h1 {
   
 }
 
-.tareas{
+.Todo{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +73,7 @@ h1 {
 
 .trash {
   margin-left: 0.75rem;
-  color: #8758ff;
+  color: #ffffff;
 }
 
 .completed {
@@ -83,6 +83,6 @@ h1 {
 
 .pen{
   margin-left: 0.75rem;
-  color: #8758ff;
+  color: #f1f1f1;
 }
  
