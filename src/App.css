@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: rgb(141, 53, 173);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,12 +38,13 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border-radius: 3px;
+  border: 2px solid #8758ff;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
-  width: 300px;
-  color: #fff;
+  margin-bottom: 5rem;
+  width: 450px;
+  color: #ffffff;
 }
 
 .tareasInput::placeholder {
@@ -51,11 +52,34 @@ h1 {
 }
 
 .tarea-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #8758ff;
   color: #fff;
   border: none;
-  padding: 0.55rem;
+  padding: 0.5rem 5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-left: 12.7rem;
+  margin-top: -115px;
+  
   cursor: pointer;
+}
+
+
+.fecha-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 11.2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  
   
 }
 

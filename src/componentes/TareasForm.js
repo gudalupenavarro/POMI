@@ -18,8 +18,11 @@ export const TareasForm = ({addTodo}) => {
         <input className='todo-input' type='text' placeholder='Cual es tu tarea hoy?'
          value={value} onChange={(e) => setValue(e.target.value)}/>
         <button type='submit' className='tarea-btn'>Agregar Tarea </button>
+      
     </form>
-  )
-}
 
+
+
+    )
+}
 export default TareasForm
